@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-TestSuite">
+              <span class="suite-name border-passed">TestSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-TestSuite">
+                    <span>D:\FilesSoftwares\Rashmi\WebWorkspace\Desire\CrossBrowserTesting.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-TestSuite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-TestSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-TestSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-TestSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-TestSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-TestSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestSuite" class="hide-methods passed suite-TestSuite"> (hide)</a> <!-- hide-methods passed suite-TestSuite -->
+                      <a href="#" panel-name="suite-TestSuite" class="show-methods passed suite-TestSuite"> (show)</a> <!-- show-methods passed suite-TestSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.GuestUser" hash-for-method="Browse_Categories">Browse_Categories</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.GuestUser" hash-for-method="Guest_User_BrowseCategory_MiniCart_Validations">Guest_User_BrowseCategory_MiniCart_Validations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.GuestUser" hash-for-method="Guest_User_CheckOut_Frm_MiniCart(rashmi., Rash, R, Street Adresss Test, 99, 000)">Guest_User_CheckOut_Frm_MiniCart(rashmi., Rash, R, Street Adresss Test, 99, 000)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.GuestUser" hash-for-method="Guest_User_CheckOut_Frm_MiniCart(, , , , , )">Guest_User_CheckOut_Frm_MiniCart(, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.GuestUser" hash-for-method="Guest_User_CheckOut_Frm_MiniCart(rashmi.rudrawadi@embitel.com, Rashmi, R, Whitefield, 560066, 9591674177)">Guest_User_CheckOut_Frm_MiniCart(rashmi.rudrawadi@embitel.com, Rashmi, R, Whitefield, 560066, 9591674177)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.GuestUser" hash-for-method="Guest_User_SearchResult_MiniCart_VAlidations">Guest_User_SearchResult_MiniCart_VAlidations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.GuestUser" hash-for-method="Search_Result_Display">Search_Result_Display</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-TestSuite" title="TestCases.GuestUser" hash-for-method="Verify_Home_Screen_Header_Footer">Verify_Home_Screen_Header_Footer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestSuite" class="panel TestSuite">
+          <div class="suite-TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestCases.GuestUser</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Browse_Categories">
+                  </a> <!-- Browse_Categories -->
+                  <span class="method-name">Browse_Categories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Guest_User_BrowseCategory_MiniCart_Validations">
+                  </a> <!-- Guest_User_BrowseCategory_MiniCart_Validations -->
+                  <span class="method-name">Guest_User_BrowseCategory_MiniCart_Validations</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Guest_User_CheckOut_Frm_MiniCart(rashmi., Rash, R, Street Adresss Test, 99, 000)">
+                  </a> <!-- Guest_User_CheckOut_Frm_MiniCart(rashmi., Rash, R, Street Adresss Test, 99, 000) -->
+                  <span class="method-name">Guest_User_CheckOut_Frm_MiniCart</span>
+                  <span class="parameters">(rashmi., Rash, R, Street Adresss Test, 99, 000)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Guest_User_CheckOut_Frm_MiniCart(, , , , , )">
+                  </a> <!-- Guest_User_CheckOut_Frm_MiniCart(, , , , , ) -->
+                  <span class="method-name">Guest_User_CheckOut_Frm_MiniCart</span>
+                  <span class="parameters">(, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Guest_User_CheckOut_Frm_MiniCart(rashmi.rudrawadi@embitel.com, Rashmi, R, Whitefield, 560066, 9591674177)">
+                  </a> <!-- Guest_User_CheckOut_Frm_MiniCart(rashmi.rudrawadi@embitel.com, Rashmi, R, Whitefield, 560066, 9591674177) -->
+                  <span class="method-name">Guest_User_CheckOut_Frm_MiniCart</span>
+                  <span class="parameters">(rashmi.rudrawadi@embitel.com, Rashmi, R, Whitefield, 560066, 9591674177)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Guest_User_SearchResult_MiniCart_VAlidations">
+                  </a> <!-- Guest_User_SearchResult_MiniCart_VAlidations -->
+                  <span class="method-name">Guest_User_SearchResult_MiniCart_VAlidations</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Search_Result_Display">
+                  </a> <!-- Search_Result_Display -->
+                  <span class="method-name">Search_Result_Display</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Home_Screen_Header_Footer">
+                  </a> <!-- Verify_Home_Screen_Header_Footer -->
+                  <span class="method-name">Verify_Home_Screen_Header_Footer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuite-class-passed -->
+        </div> <!-- panel TestSuite -->
+        <div panel-name="test-xml-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\FilesSoftwares\Rashmi\WebWorkspace\Desire\CrossBrowserTesting.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;TestSuite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;FirefoxTest&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestCases.GuestUser&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- FirefoxTest --&gt;
+&lt;/suite&gt; &lt;!-- TestSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">FirefoxTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestSuite');
+function tableData_TestSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Guest_User_CheckOut_Frm_MiniCart')
+data.setCell(0, 2, 'TestCases.GuestUser')
+data.setCell(0, 3, 128614);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Guest_User_SearchResult_MiniCart_VAlidations')
+data.setCell(1, 2, 'TestCases.GuestUser')
+data.setCell(1, 3, 72254);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Guest_User_BrowseCategory_MiniCart_Validations')
+data.setCell(2, 2, 'TestCases.GuestUser')
+data.setCell(2, 3, 48507);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Search_Result_Display')
+data.setCell(3, 2, 'TestCases.GuestUser')
+data.setCell(3, 3, 27045);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Guest_User_CheckOut_Frm_MiniCart')
+data.setCell(4, 2, 'TestCases.GuestUser')
+data.setCell(4, 3, 20842);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Browse_Categories')
+data.setCell(5, 2, 'TestCases.GuestUser')
+data.setCell(5, 3, 12143);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Guest_User_CheckOut_Frm_MiniCart')
+data.setCell(6, 2, 'TestCases.GuestUser')
+data.setCell(6, 3, 2622);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Verify_Home_Screen_Header_Footer')
+data.setCell(7, 2, 'TestCases.GuestUser')
+data.setCell(7, 3, 521);
+window.suiteTableData['TestSuite']= { tableData: data, tableDiv: 'times-div-TestSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-TestSuite">
+              </div> <!-- times-div-TestSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestCases.GuestUser</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">Extent_Report_Setting(Firefox)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">Browser_URL_SetUP(Firefox)</span>
+                <span class="method-start">153 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Verify_Home_Screen_Header_Footer</span>
+                <span class="method-start">18225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Verify_Home_Screen_Header_Footer status=SUCCESS method=GuestUser.Verify_Home_Screen...)</span>
+                <span class="method-start">18749 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Browse_Categories</span>
+                <span class="method-start">18756 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Browse_Categories status=SUCCESS method=GuestUser.Browse_Categories()[pri:0, instan...)</span>
+                <span class="method-start">30901 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Search_Result_Display</span>
+                <span class="method-start">30902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Search_Result_Display status=SUCCESS method=GuestUser.Search_Result_Display()[pri:0...)</span>
+                <span class="method-start">57949 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Guest_User_BrowseCategory_MiniCart_Validations</span>
+                <span class="method-start">57950 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Guest_User_BrowseCategory_MiniCart_Validations status=SUCCESS method=GuestUser.Gues...)</span>
+                <span class="method-start">106457 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Guest_User_SearchResult_MiniCart_VAlidations</span>
+                <span class="method-start">106459 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Guest_User_SearchResult_MiniCart_VAlidations status=SUCCESS method=GuestUser.Guest_...)</span>
+                <span class="method-start">178714 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Guest_User_CheckOut_Frm_MiniCart(, , , , , )</span>
+                <span class="method-start">179130 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Guest_User_CheckOut_Frm_MiniCart status=SUCCESS method=GuestUser.Guest_User_CheckOu...)</span>
+                <span class="method-start">199972 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Guest_User_CheckOut_Frm_MiniCart(rashmi., Rash, R, Street Adresss Test, 99, 000)</span>
+                <span class="method-start">199974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Guest_User_CheckOut_Frm_MiniCart status=SUCCESS method=GuestUser.Guest_User_CheckOu...)</span>
+                <span class="method-start">202598 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Guest_User_CheckOut_Frm_MiniCart(rashmi.rudrawadi@embitel.com, Rashmi, R, Whitefield, 560066, 9591674177)</span>
+                <span class="method-start">202599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Guest_User_CheckOut_Frm_MiniCart status=SUCCESS method=GuestUser.Guest_User_CheckOu...)</span>
+                <span class="method-start">331214 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">331238 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

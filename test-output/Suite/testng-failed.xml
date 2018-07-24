@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestCases.GuestUser">
+        <methods>
+          <include name="Guest_User_CheckOut_BrowseCategory"/>
+          <include name="Verify_Home_Screen_Header_Footer"/>
+          <include name="Search_Result_Display"/>
+          <include name="getResult"/>
+          <include name="Beforetest"/>
+          <include name="Guest_User_CheckOut_SearchResult"/>
+          <include name="Chrome_URL_SetUP"/>
+          <include name="Browse_Categories"/>
+        </methods>
+      </class> <!-- TestCases.GuestUser -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

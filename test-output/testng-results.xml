@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="331218" started-at="2018-07-23T10:46:26Z" finished-at="2018-07-23T10:51:58Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="331218" started-at="2018-07-23T10:46:26Z" finished-at="2018-07-23T10:51:58Z">
+      <class name="TestCases.GuestUser">
+        <test-method status="PASS" signature="Extent_Report_Setting(java.lang.String)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="Extent_Report_Setting" is-config="true" duration-ms="148" started-at="2018-07-23T10:46:26Z" finished-at="2018-07-23T10:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Extent_Report_Setting -->
+        <test-method status="PASS" signature="Browser_URL_SetUP(java.lang.String)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="Browser_URL_SetUP" is-config="true" duration-ms="18063" started-at="2018-07-23T10:46:27Z" finished-at="2018-07-23T10:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_URL_SetUP -->
+        <test-method status="PASS" signature="Verify_Home_Screen_Header_Footer()[pri:0, instance:TestCases.GuestUser@23e028a9]" name="Verify_Home_Screen_Header_Footer" duration-ms="521" started-at="2018-07-23T10:46:45Z" finished-at="2018-07-23T10:46:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Home_Screen_Header_Footer -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="getResult" is-config="true" duration-ms="3" started-at="2018-07-23T10:46:45Z" finished-at="2018-07-23T10:46:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify_Home_Screen_Header_Footer status=SUCCESS method=GuestUser.Verify_Home_Screen_Header_Footer()[pri:0, instance:TestCases.GuestUser@23e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Browse_Categories()[pri:0, instance:TestCases.GuestUser@23e028a9]" name="Browse_Categories" duration-ms="12143" started-at="2018-07-23T10:46:45Z" depends-on-methods="TestCases.GuestUser.Verify_Home_Screen_Header_Footer" finished-at="2018-07-23T10:46:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browse_Categories -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="getResult" is-config="true" duration-ms="0" started-at="2018-07-23T10:46:57Z" finished-at="2018-07-23T10:46:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Browse_Categories status=SUCCESS method=GuestUser.Browse_Categories()[pri:0, instance:TestCases.GuestUser@23e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Search_Result_Display()[pri:0, instance:TestCases.GuestUser@23e028a9]" name="Search_Result_Display" duration-ms="27045" started-at="2018-07-23T10:46:57Z" depends-on-methods="TestCases.GuestUser.Browse_Categories" finished-at="2018-07-23T10:47:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_Result_Display -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="getResult" is-config="true" duration-ms="1" started-at="2018-07-23T10:47:24Z" finished-at="2018-07-23T10:47:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Search_Result_Display status=SUCCESS method=GuestUser.Search_Result_Display()[pri:0, instance:TestCases.GuestUser@23e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Guest_User_BrowseCategory_MiniCart_Validations()[pri:0, instance:TestCases.GuestUser@23e028a9]" name="Guest_User_BrowseCategory_MiniCart_Validations" duration-ms="48507" started-at="2018-07-23T10:47:24Z" depends-on-methods="TestCases.GuestUser.Search_Result_Display" finished-at="2018-07-23T10:48:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Guest_User_BrowseCategory_MiniCart_Validations -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="getResult" is-config="true" duration-ms="1" started-at="2018-07-23T10:48:13Z" finished-at="2018-07-23T10:48:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Guest_User_BrowseCategory_MiniCart_Validations status=SUCCESS method=GuestUser.Guest_User_BrowseCategory_MiniCart_Validations()[pri:0, instance:TestCases.GuestUser@23e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Guest_User_SearchResult_MiniCart_VAlidations()[pri:0, instance:TestCases.GuestUser@23e028a9]" name="Guest_User_SearchResult_MiniCart_VAlidations" duration-ms="72254" started-at="2018-07-23T10:48:13Z" depends-on-methods="TestCases.GuestUser.Guest_User_BrowseCategory_MiniCart_Validations" finished-at="2018-07-23T10:49:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Guest_User_SearchResult_MiniCart_VAlidations -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="getResult" is-config="true" duration-ms="0" started-at="2018-07-23T10:49:25Z" finished-at="2018-07-23T10:49:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Guest_User_SearchResult_MiniCart_VAlidations status=SUCCESS method=GuestUser.Guest_User_SearchResult_MiniCart_VAlidations()[pri:0, instance:TestCases.GuestUser@23e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Guest_User_CheckOut_Frm_MiniCart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="Guest_User_CheckOut_Frm_MiniCart" duration-ms="20842" started-at="2018-07-23T10:49:26Z" data-provider="CheckOut_Form" depends-on-methods="TestCases.GuestUser.Guest_User_SearchResult_MiniCart_VAlidations" finished-at="2018-07-23T10:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Guest_User_CheckOut_Frm_MiniCart -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="getResult" is-config="true" duration-ms="2" started-at="2018-07-23T10:49:46Z" finished-at="2018-07-23T10:49:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Guest_User_CheckOut_Frm_MiniCart status=SUCCESS method=GuestUser.Guest_User_CheckOut_Frm_MiniCart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.GuestUser@23e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Guest_User_CheckOut_Frm_MiniCart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="Guest_User_CheckOut_Frm_MiniCart" duration-ms="2622" started-at="2018-07-23T10:49:46Z" data-provider="CheckOut_Form" depends-on-methods="TestCases.GuestUser.Guest_User_SearchResult_MiniCart_VAlidations" finished-at="2018-07-23T10:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rashmi.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Street Adresss Test]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[99]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[000]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Guest_User_CheckOut_Frm_MiniCart -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="getResult" is-config="true" duration-ms="0" started-at="2018-07-23T10:49:49Z" finished-at="2018-07-23T10:49:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Guest_User_CheckOut_Frm_MiniCart status=SUCCESS method=GuestUser.Guest_User_CheckOut_Frm_MiniCart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.GuestUser@23e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Guest_User_CheckOut_Frm_MiniCart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="Guest_User_CheckOut_Frm_MiniCart" duration-ms="128614" started-at="2018-07-23T10:49:49Z" data-provider="CheckOut_Form" depends-on-methods="TestCases.GuestUser.Guest_User_SearchResult_MiniCart_VAlidations" finished-at="2018-07-23T10:51:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rashmi.rudrawadi@embitel.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rashmi]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[R]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Whitefield]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[560066]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9591674177]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Guest_User_CheckOut_Frm_MiniCart -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:TestCases.GuestUser@23e028a9]" name="getResult" is-config="true" duration-ms="0" started-at="2018-07-23T10:51:58Z" finished-at="2018-07-23T10:51:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Guest_User_CheckOut_Frm_MiniCart status=SUCCESS method=GuestUser.Guest_User_CheckOut_Frm_MiniCart(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.GuestUser@23e028a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.GuestUser@23e028a9]" name="tearDown" is-config="true" duration-ms="262" started-at="2018-07-23T10:51:58Z" finished-at="2018-07-23T10:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.GuestUser -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- TestSuite -->
+</testng-results>

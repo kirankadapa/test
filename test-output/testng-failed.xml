@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="ChromeTest(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="TestCases.GuestUser">
+        <methods>
+          <include name="Verify_Home_Screen_Header_Footer"/>
+          <include name="Search_Result_Display"/>
+          <include name="getResult"/>
+          <include name="Browser_URL_SetUP"/>
+          <include name="tearDown"/>
+          <include name="Extent_Report_Setting"/>
+          <include name="Browse_Categories"/>
+        </methods>
+      </class> <!-- TestCases.GuestUser -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestCases.GuestUser">
+        <methods>
+          <include name="Verify_Home_Screen_Header_Footer"/>
+          <include name="Search_Result_Display"/>
+          <include name="getResult"/>
+          <include name="Browser_URL_SetUP"/>
+          <include name="tearDown"/>
+          <include name="Extent_Report_Setting"/>
+          <include name="Browse_Categories"/>
+        </methods>
+      </class> <!-- TestCases.GuestUser -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
